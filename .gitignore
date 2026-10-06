@@ -1,0 +1,46 @@
+# Secrets (keep placeholder examples public)
+.env*
+!.env.example
+
+# Proprietary agent instructions, policies and evaluation
+/agents/roles/**/prompts/
+/agents/roles/**/skills/
+/agents/roles/**/evaluation/
+/agents/roles/**/definition.json
+/agents/shared/skills/
+/agents/shared/policies/
+/agents/experiments/
+/agents/registry.json
+
+# Proprietary research implementation (includes embedded prompts)
+/ir/
+
+# Documentation is private unless explicitly selected for sharing
+!/docs/
+/docs/*
+!/docs/public/
+
+# Local research data, exports and recovery artifacts
+/data/
+/exports/
+/backups/
+/config/restores/
+
+# Local environment and caches
+.DS_Store
+__pycache__/
+.venv/
+.pytest_cache/
+.tools/
+.mypy_cache/
+.ruff_cache/
+
+# Generated Python builds, coverage and logs
+/build/
+/dist/
+*.egg-info/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.log
