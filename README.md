@@ -4,6 +4,8 @@ An investment research platform designed to turn evidence, analytical judgment a
 
 The central architectural choice is to keep investment knowledge and decision authority independent of the model or agent harness used to perform the work. A harness manages the model-and-tool execution loop. The platform owns evidence, research workflows, permissions, evaluation and attributable investor history. This allows execution technology to evolve while accumulated research remains usable and comparable.
 
+Website: https://investment-research-timeline.vercel.app/
+
 ## Project reports
 
 The public reports in `docs/public/` provide complementary introductions:
